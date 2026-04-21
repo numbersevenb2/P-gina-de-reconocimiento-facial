@@ -14,3 +14,31 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Face Auth App
+
+Proyecto de autenticación facial con **React**, **Supabase** y **MediaPipe Face Detection**.  
+Permite registro y login de usuarios utilizando detección facial en tiempo real desde la cámara del navegador.
+
+---
+
+## Tecnologías utilizadas
+
+- [React](https://react.dev/) — Librería principal para la interfaz.
+- [Vite](https://vitejs.dev/) — Bundler y servidor de desarrollo rápido.
+- [Supabase](https://supabase.com/) — Base de datos y backend para almacenar perfiles y embeddings.
+- [MediaPipe Face Detection](https://developers.google.com/mediapipe) — Detección facial en tiempo real.
+- [React Router](https://reactrouter.com/) — Navegación entre pantallas.
+- [UUID](https://www.npmjs.com/package/uuid) *(opcional)* — Generación de identificadores únicos.
+
+---
+
+## Instalación de dependencias
+
+Ejecuta en la raíz del proyecto:
+
+```bash
+npm install react react-dom react-router-dom
+npm install @supabase/supabase-js
+npm install @mediapipe/face_detection @mediapipe/camera_utils
+npm install uuid   # opcional, puedes usar crypto.randomUUID()
