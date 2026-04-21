@@ -41,4 +41,3 @@ Ejecuta en la raíz del proyecto:
 npm install react react-dom react-router-dom
 npm install @supabase/supabase-js
 npm install @mediapipe/face_detection @mediapipe/camera_utils
-npm install uuid   # opcional, puedes usar crypto.randomUUID()
